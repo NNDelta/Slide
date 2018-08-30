@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>DELTA TOKYOの紹介</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown>
+					![](media/delta.png)  
+					Neural Network Console 勉強会
+				</section>
+				<section data-markdown data-background="#0f2a4e">
+					# DELTAとは？
+					SonyのNeural Network Console(NNC)とNeural Network Libraries(NNabla)専門の勉強会グループ
+				</section>
+				<section data-markdown data-background="#0f2a4e">
+					# 大事なお仕事
+					`#nndelta` でツイート！
+				</section>
+				<section data-markdown>
+					# アジェンダ
+					| 時間 | 内容
+					|-----|------
+					|19:20| 本会の趣旨について
+					|19:30| Akira (@ImagingSolAkira)さん
+					|19:50| NNCで女性向ニュースのAI編集長を模擬る by boku (@arakan_boku)さん
+					|20:20| 休憩
+					|20:25| 全能少女クオリア@VTuber (@vtuberqualia)さん
+					|20:45| 懇親会
+					|21:45| 終了
+				</section>
+				<section data-markdown data-background="#0f2a4e">
+					# 運営募集中！
+					一緒にDELTA TOKYOを盛り上げてくれる方！🙏
+					- AI/ディープラーニング好きな方
+					- NNCが好きな方
+				</section>
+				<section data-markdown data-background="#0f2a4e">
+					# こんなことできます
+					- 参加者と楽しくコミュニケーションできます
+					- 自分の聞きたい話をテーマに設定できます
+					- NNCのプレゼンスを上げられます
+					- DELTA愛に溢れます
+				</section>
+				<section data-markdown data-background="#0f2a4e">
+					## これからの DELTA
+					- TOKYO #3 ← イマココ
+				</section>
+				<section>
+					<h1>自己紹介</h1>
+					<ul>
+						<li>お名前と所属</li>
+						<li>AI/ディープラーニングへの関わり</li>
+					</ul>
+					<iframe src="http://maruta.github.io/timekeeper/#t1=00:30&t2=00:31&t3=25:00&m=AI/ディープラーニングへの関わり" width="60%" height="100%"></iframe>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+		<style>
+			section img {
+				border: 0px !important;
+				box-shadow: 0 0 0px rgba(0, 0, 0, 0) !important;
+			}
+			#left {
+			  left:-8.33%;
+			  text-align: left;
+			  float: left;
+			  width:50%;
+			  z-index:-10;
+			}
+
+			#right {
+			  left:31.25%;
+			  top: 75px;
+			  float: right;
+			  text-align: right;
+			  z-index:-10;
+			  width:50%;
+			}
+		</style>
+	</body>
+</html>
